@@ -1,5 +1,5 @@
 {
-  "name": "invicara",
+  "name": "weather-forcast",
   "version": "1.0.0",
   "description": "weather forecast",
   "main": "src/app.js",
