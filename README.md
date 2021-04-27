@@ -3,9 +3,10 @@
 
 # Installation
 
-```javascript
+```bash
 
     // clone the application with git clone
+    git clone https://github.com/sushil-singh/Weather-forcast-Sample-App.git
 
 ```
 
