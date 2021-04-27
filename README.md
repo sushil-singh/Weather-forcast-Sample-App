@@ -14,6 +14,7 @@
 
 ```javascript
     // Install nodejs and npm in your machine and run below command
+    $ npm install
     $ node src/index.js
 
 
