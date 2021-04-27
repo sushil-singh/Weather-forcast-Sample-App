@@ -1,4 +1,4 @@
-# Weather-forcast-Sample-App
+# Weather-Forecast-Sample-App
 
 
 # Installation
