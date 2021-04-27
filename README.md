@@ -37,7 +37,7 @@
 
 ```
 
-#  Use below API for weather forecast by providing city naame and orderBy
+#  Use below API for weather forecast by providing city name and orderBy
 
 ```bash
 
