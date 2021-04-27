@@ -10,11 +10,11 @@
 
 ```
 
-# Running the application
+# Running the application in local
 
 ```javascript
-
-    node src/index.js
+    // Install nodejs and npm in your machine and run below command
+    $ node src/index.js
 
 
 ```
@@ -22,8 +22,8 @@
 # Building docker image
 
 ```bash
-
-    docker build -t weather-forecast:latest .
+    // Install docker in your machine and run below command
+    $ docker build -t weather-forecast:latest .
 
 ```
 
@@ -32,8 +32,8 @@
 ```bash
 
     // 9000 port is given since the docker file contains 9000 port
-    // Container port 9000 is maped with system port 9000. It can be chaned to any other port
-    docker run -it -d -p 9000:9000 weather-forecast:latest
+    // Container port 9000 is maped with system port 9001. It can be changed to any other port
+    $ docker run -it -d -p 9001:9000 weather-forecast:latest
 
 ```
 
@@ -41,8 +41,7 @@
 
 ```bash
 
-    http://localhost:9000/weather/forecast?city=<city-name>&orderBy=<orderBy asc|desc>
+    http://localhost:9001/weather/forecast?city=<city-name>&orderBy=<orderBy asc|desc>
 
 ```
-
 
